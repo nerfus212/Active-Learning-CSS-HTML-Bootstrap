@@ -1,0 +1,91 @@
+p {
+    text-align: justify;
+}
+
+body {
+    font-family: 'Tahoma', Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.orange {
+    color:#D66802;
+}
+
+table {
+    width:100%
+}
+/* 
+.firstcolumn{
+    width: 360px;
+}
+.center {
+    text-align: center;
+} */
+table tbody tr:nth-child(even) {
+    background: lightgray;
+}
+
+table tbody tr td:nth-child(n+2) {
+    text-align: center;
+}
+
+table thead tr th:nth-child(1) {
+    width: 360px;
+}
+
+table tbody tr td:nth-child(1) {
+    width: 360px;
+}
+
+
+table thead tr th:nth-child(2) {
+    text-align: center;
+}
+
+th {
+    background: lightgray;
+    text-transform: uppercase;
+}
+
+td {
+    border: 2px;
+    /* border-style: solid; */
+}
+
+.container {
+    width:780px;
+    margin: 10px auto;
+    padding: 5px;
+    background: lightgray;
+}
+
+#headImg {
+    width:100%;
+    align-items: center;
+    
+}
+#courseSec {
+    width:110px;
+    margin: 10px;    
+    float:left;
+}
+#NewsSec {
+    width:240px;
+    float: left;
+    margin: 10px;
+}
+#onsiteTrainingSec {
+    width:190px;
+    float: left;
+    margin: 10px;
+}
+#newsletterSec{
+    width:150px;
+    float: left;
+    margin: 10px;
+}
+
+.clearfloat {
+    clear:left;
+}
+
